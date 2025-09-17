@@ -13,7 +13,8 @@ This is my **first Bootstrap project**, where I practiced creating responsive la
 - **🖼️ Swiper Slider** → Smooth image slider for project previews.  
 - **💡 GLightbox** → Lightbox image viewer for portfolio images.  
 - **⬆️ Back-to-Top Button** → Scroll-triggered button for better UX.  
-- **🎨 Custom Styling** → Polished layout with custom CSS.  
+- **🎨 Custom Styling** → Polished layout with custom CSS.
+- Custom JavaScript for navbar, counters, and animations
 
 ---
 
@@ -21,4 +22,14 @@ This is my **first Bootstrap project**, where I practiced creating responsive la
 - [Bootstrap 5](https://getbootstrap.com/)  
 - [Swiper.js](https://swiperjs.com/)  
 - GLightbox  
-- HTML5 / CSS3 / JavaScript  
+- HTML5 / CSS3 / JavaScript
+
+--- 
+## 📸 Screenshot
+
+<img src="Assets/image.png" alt="Website Screenshot" width="100%">
+
+---
+
+## 🔗 Live Demo
+👉 [View on GitHub Pages](https://dohahehe.github.io/DevFolio/)  
