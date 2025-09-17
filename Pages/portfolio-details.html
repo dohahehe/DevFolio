@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevFolio Bootstrap Portfolio Template</title>
+    <link href="../Assets/favicon.png" rel="icon">
+    <!--BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FONT AWSOME-->
+    <script src="https://kit.fontawesome.com/9653068605.js" crossorigin="anonymous"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">    
+    <!--MAIN STYLESHEET-->
+    <link rel="stylesheet" href="../Styles/style.css">
+    <!--MEDIA QUERIES-->
+    <link rel="stylesheet" href="../Styles/media.css">
+    <!--PORTFOLIO DETAILS STYLE-->
+    <link rel="stylesheet" href="../Styles/p-details.css">
+  </head>
+  <body>
+    
+    <!--HEADER NAVBAR-->
+    <header class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo">
+                <a href="index.html">DevFolio</a>
+            </h1>
+
+            <!--LARGE SCREEN NAVBAR-->
+            <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="../index.html" class="navlink scrollto active">Home</a></li>
+                <li  class="dropdown">
+                <a href="#" class="navlink dropdown-toggle">
+                    DROP DOWN
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Drop Down 1</a></li>
+                    <li class="dropdown">
+                    <a href="#"><span>Deep Drop Down</span><i class="fa-solid fa-chevron-right"></i></a>
+                    <ul>
+                        <li><a href="#">Deep Drop Down 1</a></li>
+                        <li><a href="#">Deep Drop Down 2</a></li>
+                        <li><a href="#">Deep Drop Down 3</a></li>
+                        <li><a href="#">Deep Drop Down 4</a></li>
+                        <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Drop Down 2</a></li>
+                    <li><a href="#">Drop Down 3</a></li>
+                    <li><a href="#">Drop Down 4</a></li>
+                </ul>
+                </li>
+            </ul>
+            </nav>
+
+            <!--MOBILE NAVBAR-->
+            <nav class="navbar m-nav" id="navbar">
+            <ul>
+                <li><a href="../index.html" class="navlink scrollto active">Home</a></li>
+                <li class="dropdown">
+                <a href="#" class="navlink dropdown-toggle">
+                    DROP DOWN
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul>
+                    <li><a href="#">Drop Down 1</a></li>
+                    <li class="dropdown">
+                    <a href="#"><span>Deep Drop Down</span><i class="fa-solid fa-chevron-right"></i></a>
+                    <ul>
+                        <li><a href="#">Deep Drop Down 1</a></li>
+                        <li><a href="#">Deep Drop Down 2</a></li>
+                        <li><a href="#">Deep Drop Down 3</a></li>
+                        <li><a href="#">Deep Drop Down 4</a></li>
+                        <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Drop Down 2</a></li>
+                    <li><a href="#">Drop Down 3</a></li>
+                    <li><a href="#">Drop Down 4</a></li>
+                </ul>
+                </li>
+            </ul>
+            </nav>
+
+            <!-- Mobile toggles OUTSIDE nav -->
+            <i class="fa-solid fa-bars mobile-toggle" id="openMenu"></i>
+            <i class="fa-solid fa-xmark mobile-toggle" id="closeMenu"></i>
+        </div>
+    </header>
+
+    <!--PORTFOLIO INTRO SECTION-->
+    <section id="p-d-intro" class="p-d-intro img-bg">
+        <div class="section-overlay"></div>
+            <div class="intro-content display-table">
+                <div class="table-cell">
+                    <div class="intro-container container">
+                    <h2 class="mb-4 mt-4">Portfolio Details</h2>
+                    <ol class="breadcrumb d-flex justify-content-center">
+                        <li class="breadcrumb-item">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item active">Portfolio Details</li>
+                    </ol>
+                </div>
+            </div>
+    </section>
+    
+    <!--MAIN SECTION-->
+    <main>
+        <!--PORTFOLIO DETAILS SECTION-->
+        <section id="p-details" class="p-details">
+          <div class="container">
+            <div class="row gy-4">
+              <!--SLIDER-->
+              <div class="col-lg-8">
+                <div class="portfolio-details-slider swiper">
+                  <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                      <img src="../Assets/portfolio-details-1.jpg" alt="Portfolio Detail 1">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="../Assets/portfolio-details-2.jpg" alt="Portfolio Detail 2">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="../Assets/portfolio-details-3.jpg" alt="Portfolio Detail 3">
+                    </div>
+                  </div>
+                  <!--Pagination-->
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+
+              <!--INFO-->
+              <div class="col-lg-4">
+                <div class="portfolio-info">
+                  <h3>Project information</h3>
+                  <ul>
+                    <li><strong>Category</strong>: Web design</li>
+                    <li><strong>Client</strong>: ASU Company</li>
+                    <li><strong>Project date</strong>: 01 March, 2020</li>
+                    <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                  </ul>
+                </div>
+                <div class="portfolio-description">
+                  <h2>This is an example of portfolio detail</h2>
+                  <p>
+                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="f-container">
+                        <p>© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+                        <div class="credits">
+                            Designed by 
+                            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--BACK TO TOP BUTTON-->
+    <a href="#" class="top d-flex align-items-center justify-content-center active">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+
+    <script src="../Scripts/mobileNavbar.js"></script>
+    <script src="../Scripts/backToTop.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Swiper initialization
+        new Swiper('.portfolio-details-slider', {
+            speed: 400,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            }
+        });
+    </script>
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

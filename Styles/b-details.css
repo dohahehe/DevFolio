@@ -1,0 +1,104 @@
+.post-box, .form-comments, .comments-box, .widget-sidebar {
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 3rem;
+}
+
+/* ============= BLOG =========== */
+
+.blog .post-meta {
+    margin: 1rem 0;
+}
+.blog .article-title {
+    font-size: 1.5rem;
+}
+.ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.blog .post-meta ul {
+    border-left: 4px solid #0078ff;
+    margin-top: 1rem;
+}
+.blog .post-meta ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.blog .post-meta ul span {
+    color: #1e1e1e;
+}
+.blog .post-meta ul a {
+    color: #0078ff;
+}
+.blog .blockquote {
+    border-left: 4px solid #0078ff;
+    padding: 18px;
+    font-style: italic;
+}
+
+/* ============ COMMENTS & SIDEBAR =============== */
+
+.comments-box .list-comments li {
+    padding-bottom: 40px;
+}
+.comments-box .list-comments .comment-avatar {
+    display: table-cell;
+    vertical-align: top;
+}
+.comments-box .list-comments .comment-avatar img {
+    width: 80px;
+    height: 80px;
+}
+.comments-box .list-comments .comment-details {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 25px;
+}
+.comments-box .list-comments .comment-author {
+    font-size: 1.3rem;
+}
+.comments-box .list-comments span {
+    color: #1e1e1e;
+    font-style: italic;
+}
+.comments-box .list-comments a {
+    color: #0078ff;
+}
+.widget-sidebar .sidebar-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-left: 5px solid #0078ff;
+    padding-left: 15px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+.sidebar-search .btn-search {
+    background-color: #0078ff;
+    border-color: #0078ff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.widget-sidebar .list-sidebar li {
+    position: relative;
+    padding: 6px 0 6px 24px;
+}
+.widget-sidebar .list-sidebar li:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 1px;
+    left: 0;
+    background-color: #0078ff;
+    top: 20px;
+}
+.widget-tags ul li {
+    display: inline-block;
+    background-color: #0078ff;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0.5rem;
+    border-radius: 15px;
+}
+.widget-tags ul li a {
+    color: #fff;
+}

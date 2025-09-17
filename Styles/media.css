@@ -1,0 +1,213 @@
+/* ============= NAVBAR ============== */
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
+/* ================= DESKTOP ================= */
+@media (min-width: 993px) {
+  .navbar ul {
+    display: flex ;
+  }
+  .mobile-toggle {
+    display: none !important;
+  }
+  .m-nav {
+    display: none !important;
+    position: absolute;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 992px) {
+  .navbar ul {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .m-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(78, 78, 78, 0.9);
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 1500;
+  }
+  .m-nav.active {
+    display: block;
+  }
+  .m-nav ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    padding: 10px 0;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+  .m-nav .mobile-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: block;
+    z-index: 2001;
+  }
+  .m-nav > ul > li {
+    padding: 0;
+  }
+  .m-nav a,
+  .m-nav a:focus {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #4e4e4e;
+  }
+  .m-nav a:hover,
+  .m-nav .active,
+  .m-nav li:hover > a {
+    color: #0078ff;
+  }
+  .m-nav .dropdown ul {
+    position: static;
+    display: none;
+    margin: 10px 20px;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 1;
+    visibility: visible;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  }
+  .m-nav .dropdown ul li {
+    min-width: 200px;
+  }
+  .m-nav .dropdown ul a {
+    padding: 10px 20px;
+  }
+  .m-nav .dropdown > .dropdown-active {
+  display: block;
+}
+  .m-nav .dropdown ul a i {
+    font-size: 12px;
+  }
+  .m-nav .dropdown ul a:hover,
+  .m-nav .dropdown ul .active:hover,
+  .m-nav .dropdown ul li:hover > a {
+    color: #0078ff;
+  }
+  .m-nav .dropdown > .dropdown-active {
+    display: block;
+  }
+}
+
+/* ================= INTRO SECTION ================ */
+
+@media (max-width: 992px) {
+  .intro-container h1{
+    font-size: 4rem;
+  }
+  .intro-container p{
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 768px) {
+  .intro-container h1{
+    font-size: 3.5rem;
+  }
+  .intro-container p{
+    font-size: 2.5rem;
+  }
+}
+
+/* ================= ABOUT SECTION ================*/
+
+@media (min-width: 768px) {
+  .box-shadow-full {
+    padding: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .about-img{
+    text-align: center;
+  }
+  .about-img img{
+    width: 50%;
+  }
+  .about-info{
+    text-align: center;
+  }
+}
+
+/* ========== STATS SECTION ========== */
+
+@media (max-width: 992px) {
+    .counter-box{
+      padding-bottom: 2rem;
+    }
+}
+
+/* ========== TESTIMONIALS SECTION ========= */
+
+@media (min-width: 1200px) {
+    .testimonial-box .description {
+        padding: 0 13rem;
+    }
+}
+@media (min-width: 992px) {
+    .testimonial-box .description {
+        padding: 0 8rem;
+    }
+}
+@media (min-width: 768px) {
+    .testimonial-box .description {
+        padding: 0 5rem;
+    }
+}
+
+/* ========== BLOG SECTION ========== */
+
+@media (min-width: 767px) {
+  .blog-container {
+    margin-bottom: 3rem;
+  }
+}
+
+/* ========== IMAGE BACKGROUND ========== */
+
+@media (max-width: 1024px) {
+  .img-bg {
+    background-attachment: scroll;
+  }
+}
+
+
+/* ============= BLOG DETAILS PAGE ================= */
+
+@media (min-width: 768px) {
+  .blog .article-title {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 768px) {
+  .post-box, .form-comments, .comments-box, .widget-sidebar {
+    padding: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .comments-box .list-comments .comment-author {
+    font-size: 1.5rem;
+  }
+}
